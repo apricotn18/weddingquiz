@@ -45,11 +45,9 @@ const list = [
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-	<BrowserRouter>
-		<Routes>
-			<Route path="/" Component={Quiz} />
-		</Routes>
-	</BrowserRouter>
+	<>
+		<Quiz />
+	</>
 );
 
 function Home () {
