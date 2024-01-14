@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.986b2226.css",
+    "main.js": "./static/js/main.4207bbb9.js",
+    "static/media/7.jpg": "./static/media/7.f56efae87fd6dcb7b7b4.jpg",
+    "static/media/5.jpg": "./static/media/5.cb1913059306c8216af0.jpg",
+    "static/media/4.jpg": "./static/media/4.cfac609e5bfc8a21615f.jpg",
+    "static/media/2.jpg": "./static/media/2.93251ea07a35627bf9be.jpg",
+    "static/media/1.jpg": "./static/media/1.1f6f7d32202d4198480b.jpg",
+    "static/media/8.jpg": "./static/media/8.5e2ee3ae33dfd68eb316.jpg",
+    "static/media/C.png": "./static/media/C.07ea2cb7194262fa96b6.png",
+    "static/media/D.png": "./static/media/D.043fae38a87d1e66cd1c.png",
+    "static/media/A.png": "./static/media/A.5cc737b781d13cb9f54f.png",
+    "static/media/B.png": "./static/media/B.22cc30845dc351a7ce4a.png",
+    "static/media/noren.png": "./static/media/noren.7db475102385224868ff.png",
+    "static/media/quiztitle.png": "./static/media/quiztitle.a289faeb5ae343be649b.png",
+    "index.html": "./index.html",
+    "main.986b2226.css.map": "./static/css/main.986b2226.css.map",
+    "main.4207bbb9.js.map": "./static/js/main.4207bbb9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.986b2226.css",
+    "static/js/main.4207bbb9.js"
+  ]
+}

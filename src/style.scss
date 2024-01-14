@@ -1,0 +1,161 @@
+* {
+	font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+	word-break: break-all;
+	line-height: 1;
+}
+
+body {
+	color: #65837F;
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.wrapper {
+	max-width: 560px;
+	margin: 0 auto;
+}
+
+.map {
+	color: #fff;
+	background-color: #65837F;
+
+	a {
+		display: block;
+		padding: 10px 0 9px;
+		font-size: 12px;
+		text-decoration: underline;
+		color: #fff;
+	}
+
+	span {
+		position: relative;
+		padding-right: 5px;
+
+		&::after {
+			position: absolute;
+			top: 50%;
+			right: 0;
+			display: inline-block;
+			width: 5px;
+			height: 5px;
+			content: "";
+			border-top: 1px solid;
+			border-right: 1px solid;
+			transform: rotate(45deg) translateY(-4px);
+		}
+	}
+}
+
+header {
+	padding: 20px 0 0;
+
+	h1 {
+		font-size: 24px;
+
+		span {
+			font-size: 16px;
+		}
+	}
+
+	img {
+		padding-top: 15px;
+		
+	}
+}
+
+ul {
+	padding: 20px 10px 30px;
+
+	li {
+		text-align: left;
+		font-size: 16px;
+		color: #3b5a56;
+
+		&:nth-child(n+2) {
+			padding-top: 30px;
+		}
+	}
+
+	p {
+		padding-top: 10px;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+		border-radius: 4px;
+		overflow: hidden;
+	}
+}
+
+.quiz {
+	max-width: 560px;
+	margin: 0 auto;
+	background-color: #fff;
+
+	.quizHeader {
+		padding: 0;
+		color: #000;
+
+		span {
+			display: block;
+			padding-top: 10px;
+		}
+	}
+
+	.noren {
+		padding: 0;
+		opacity: .6;
+	}
+
+	.title {
+		max-width: 400px;
+		margin: auto;
+		padding: 30px 20px 43px;
+	}
+
+	.textWrapper {
+		max-width: 420px;
+		margin: auto;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+
+	.text {
+		padding: 23px 20px 21px;
+		color: #444;
+		font-size: 16px;
+		line-height: 1.5;
+		border: 2px dashed #ccc;
+		border-radius: 5px;
+	}
+
+	img {
+		width: 100%;
+	}
+
+	ul {
+		padding: 0 0 30px;
+	}
+
+	.A {
+		padding-top: 40px;
+	}
+
+	.B {
+		margin-top: -15px;
+	}
+
+	.C {
+		padding-top: 20px;
+	}
+
+	.D {
+		padding-top: 20px;
+	}
+
+	.hint {
+		padding: 1000px 0 40px;
+		color: #000;
+	}
+}
