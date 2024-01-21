@@ -28,7 +28,7 @@ header {
 }
 
 ul {
-	padding: 20px 10px 30px;
+	padding: 0 0 40px;
 
 	li {
 		text-align: left;
@@ -127,10 +127,6 @@ ul {
 		margin: 0 4px 0 6px;
 	}
 
-	ul {
-		padding: 0 0 30px;
-	}
-
 	.A {
 		padding-top: 45px;
 	}
@@ -148,7 +144,8 @@ ul {
 	}
 
 	.hint1 {
-		padding: 50px 0 0;
+		border-top: 1px dashed #8a8a8a;
+		padding: 200px 0 0;
 		color: #000;
 	}
 

@@ -47,6 +47,9 @@ function Quiz () {
 						<div><img src={imageD} width="540" alt="" /></div>
 					</li>
 				</ul>
+				<div class="blankborder">
+					<p class="borderinner"></p>
+				</div>
 				<div id="hint" className="hint1">
 					<h2><img src={imageFlower} className="flower" width="16" alt="" />ヒント1<img src={imageFlower} className="flower" width="16" alt="" /></h2>
 					<p>新郎には兄、新婦には弟妹がいます</p>
